@@ -1,0 +1,92 @@
+:root{
+    --color-negro: #222222;
+    --color-texto: #36362D;
+}
+
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background: #f2f4f8;
+}
+
+.contenedor{
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-negro);
+}
+
+.grid-product{
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 2rem*1/2));
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.grid-item{
+    border:1px solid #e5e5e5;
+    padding: 14px;
+    text-align: center;
+}
+
+.grid-item .imagen{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.grid-item .imagen .p-img{
+    display: none;
+    width: 100%;
+}
+
+.grid-item .imagen .p-img.img-active{
+    display: block;
+}
+
+.g-colors a{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+    position: relative;
+}
+
+.g-colors a i{
+    position: absolute;
+    color: #fff;
+    top: 6px;
+    left: 6px;
+    font-size: 14px;
+}
+
+.grid-item p{
+    color: var(--color-texto);
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.grid-item .btn{
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    background: #0091cd;
+    color: #fff;
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 15px;
+}

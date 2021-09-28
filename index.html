@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Select</title>
+
+    <!-- FUENTE GOOGLE FONTS : Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h3>Listado</h3>
+
+        <div class="grid-product">
+
+            <div class="grid-item">
+
+                <div class="imagen data-images">
+                    <img  data-id="1" class="p-img img-active" src="img/polo-rojo.png" alt="">
+                    <img  data-id="2" class="p-img" src="img/polo-azul.png" alt="">
+                    <img  data-id="3" class="p-img" src="img/polo-cobalto.png" alt="">
+                    <img  data-id="4" class="p-img" src="img/pollo-verde.png" alt="">
+                </div>
+                <div class="g-colors data-colors" >
+                    <a href="#" style="background: #D22C32;" data-id="1">
+                        <i class="fas fa-check"></i>
+                    </a>
+                    <a href="#" style="background: #202FA4;"  data-id="2"></a>
+                    <a href="#" style="background: #BE851E;" data-id="3"></a>
+                    <a href="#" style="background: #1AAA0D;" data-id="4"></a>
+                </div>
+                <p>Sed dapibus erat</p>
+                <button class="btn">MÁS DETALLES</button>
+
+            </div>
+
+             <div class="grid-item">
+
+                <div class="imagen data-images" >
+                    <img data-id="1" class="p-img img-active" src="img/pantalon-1.png" alt="">
+                    <img data-id="2" class="p-img" src="img/pantalon-2--negro.png" alt="">
+                    <img data-id="3" class="p-img" src="img/pantalon-3-azul.png" alt="">
+                    <img data-id="4" class="p-img" src="img/pantalon-4-rojo.png" alt="">
+                </div>
+                <div class="g-colors data-colors" >
+                    <a data-id="1" href="#" style="background: #91B1CA;"><i class="fas fa-check"></i></a>
+                    <a data-id="2" href="#" style="background: #393939;"></a>
+                    <a data-id="3" href="#" style="background: #1F2060;"></a>
+                    <a data-id="4" href="#" style="background: #D6070C;"></a>
+                </div>
+                <p>Sed dapibus erat</p>
+                <button class="btn">MÁS DETALLES</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
